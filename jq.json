@@ -1,0 +1,30 @@
+{
+    "name": "ratio-buckets",
+    "version": "0.1.0",
+    "description": "Counter buckets for the [0,1] range.",
+    "homepage": "https://github.com/joelpurra/jq-ratio-buckets",
+    "bugs": "https://github.com/joelpurra/jq-ratio-buckets/issues",
+    "author": {
+        "name": "Joel Purra",
+        "url": "http://joelpurra.com/"
+    },
+    "main": "./jq/main.jq",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/joelpurra/jq-ratio-buckets.git"
+    },
+    "dependencies": {
+        "joelpurra/jq-counter-buckets": "^0.1.0"
+    },
+    "engines": {
+        "jq": "^1.5.0",
+        "jqnpm": "^1.0.0"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+    }],
+    "keywords": [
+        "jq-package"
+    ]
+}
